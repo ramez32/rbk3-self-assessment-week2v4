@@ -4,7 +4,7 @@
  */
 
 var TimeComplexity = {
-  FIX_ME: 'wrong answer',
+  error: 'wrong answer',
   CONSTANT: 'constant',
   LOGARITHMIC: 'logarithmic',
   LINEAR: 'linear',
@@ -13,7 +13,7 @@ var TimeComplexity = {
 };
 
 
-var sortedIndexOfTimeComplexity =  TimeComplexity.FIX_ME; // TODO: Update this constant
+var sortedIndexOfTimeComplexity =  TimeComplexity.; // TODO: Update this constant
 
 var sortedIndexOf = function(array, targetElement) {
   var minIndex = 0;
@@ -91,7 +91,7 @@ var hasDuplicates = function(array) {
 
 
 
-var removeLastThreeElementsTimeComplexity =  TimeComplexity.FIX_ME; // TODO: Update this constant
+var removeLastThreeElementsTimeComplexity =  TimeComplexity.CONSTANT; // TODO: Update this constant
 
 var removeLastThreeElements = function(array) {
   var numberOfElementsToRemove = 3;
