@@ -38,7 +38,7 @@ var sortedIndexOf = function(array, targetElement) {
 };
 
 
-var findDuplicatesTimeComplexity =  TimeComplexity.FIX_ME; // TODO: Update this constant
+var findDuplicatesTimeComplexity =  TimeComplexity.LINEAR; // TODO: Update this constant
 
 var findDuplicates = function(string) {
   var tracker = {};
