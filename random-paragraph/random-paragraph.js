@@ -8,5 +8,7 @@
  */
 
 var randomParagraphWithFiveSentences = function() {
-  // your code is here
+  var rand5sentences=chance.paragraph({sentences : 5})
+  return rand5sentences
+
 };

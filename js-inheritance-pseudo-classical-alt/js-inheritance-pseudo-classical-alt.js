@@ -20,6 +20,16 @@ var makeHorse = function(name) {
   };
   return result;
 };
+// class makeHorse {
+//   constructor (){
+//     this.destination=destination;
+//     this.name = name;
+//   }
+// goSomewhere (){
+//   return name + ' is galloping to ' + destination + '!';
+// }
+// }
+
 
 var makeFlyingHorse = function(name, color) {
   var result = makeHorse(name);
@@ -34,5 +44,22 @@ var makeFlyingHorse = function(name, color) {
   };
   return result;
 };
+
+
+
+class Horse extends makeHorse{
+constructor(name){
+  super(name);
+}
+}
+
+
+class FlyingHorse extends makeFlyingHorse{
+  constructor(name,color){
+    super(name,color)
+  }
+  
+}
+
 
 // YOUR WORK GOES BELOW
